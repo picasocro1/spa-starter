@@ -43,3 +43,4 @@
 ## Steps to configure router
 
 1. `pnpm i react-router-dom localforage match-sorter sort-by`
+1. Inject RouterProvider in `main.tsx`
