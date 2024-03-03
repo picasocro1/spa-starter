@@ -39,3 +39,7 @@
 1. `pnpm i -D prettier-plugin-organize-imports prettier-plugin-tailwindcss`
 1. Define plugins in .prettierrc.mjs
 1. [Free Fontawesome icons](https://fontawesome.com/search?o=r&m=free) `pnpm i @fortawesome/fontawesome-svg-core @fortawesome/free-brands-svg-icons @fortawesome/free-regular-svg-icons @fortawesome/free-solid-svg-icons @fortawesome/react-fontawesome`
+
+## Steps to configure router
+
+1. `pnpm i react-router-dom localforage match-sorter sort-by`
