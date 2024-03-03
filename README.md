@@ -10,6 +10,7 @@
 - Vitest
 - React Testing Library
 - Husky & lint-staged
+- Organize imports & Tailwind classes order
 
 ## Steps that have been taken to create this project
 
@@ -33,3 +34,5 @@
 1. Remove default `App.tsx` content + related assets & styles
 1. Add favicon and adjust `index.html`
 1. Change `.prettierrc.cjs` to `mjs` versions
+1. `pnpm i -D prettier-plugin-organize-imports prettier-plugin-tailwindcss`
+1. Define plugins in .prettierrc.mjs
