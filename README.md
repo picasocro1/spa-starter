@@ -35,3 +35,5 @@ export default {
 1. Install dependencies `pnpm install`
 1. Configure prettier
    1. Prettier all files `pnpm exec prettier . --write`
+1. Add `classNames` util in `/utils` and configure `@util` path in `tsconfig.json`
+1. `pnpm i -D vite-tsconfig-paths` and configure it
