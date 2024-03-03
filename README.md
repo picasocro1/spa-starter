@@ -45,3 +45,6 @@ export default {
 1. `pnpm i -D jsdom @types/jsdom`
 1. `pnpm i -D @testing-library/dom @testing-library/jest-dom @testing-library/react @testing-library/user-event`
 1. Configure `setupTests` | Use it in `vite.config.ts` and `tsconfig.json` to provide global matchers types
+1. `npx husky-init` & `pnpm i -D lint-staged`
+1. Adjust `.husky/pre-commit` to use `npx lint-staged` instead of `npm test`
+1. Configure "lint-staged" section in `package.json`
