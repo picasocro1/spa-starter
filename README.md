@@ -32,3 +32,4 @@
 1. Configure "lint-staged" section in `package.json`
 1. Remove default `App.tsx` content + related assets & styles
 1. Add favicon and adjust `index.html`
+1. Change `.prettierrc.cjs` to `mjs` versions
