@@ -40,3 +40,4 @@ export default {
 1. Create `.env.development` and `.env.production` and put `BASE_URL` in it
 1. Extend `gitignore` to ignore `.env` files
 1. Configure vite to use `.env` files
+1. [Install Tailwind CSS with Vite](https://tailwindcss.com/docs/guides/vite)
