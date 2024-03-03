@@ -29,7 +29,9 @@ export default {
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
 
-
 # Steps that have been taken to create this project
+
 1. `pnpm create vite`
 1. Install dependencies `pnpm install`
+1. Configure prettier
+   1. Prettier all files `pnpm exec prettier . --write`
