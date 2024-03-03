@@ -41,3 +41,5 @@ export default {
 1. Extend `gitignore` to ignore `.env` files
 1. Configure vite to use `.env` files
 1. [Install Tailwind CSS with Vite](https://tailwindcss.com/docs/guides/vite)
+1. [Install Vitest](https://vitest.dev/guide/#adding-vitest-to-your-project) and configure it
+1. `pnpm i -D jsdom @types/jsdom`
