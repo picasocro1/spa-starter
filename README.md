@@ -44,3 +44,4 @@
 
 1. `pnpm i react-router-dom localforage match-sorter sort-by`
 1. Inject RouterProvider in `main.tsx`
+1. Init routes | Replace App with Root route
