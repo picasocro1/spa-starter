@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteBase /today-i-learned/
+RewriteRule ^index\.html$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /today-i-learned/index.html [L]
+
+Satisfy Any
+Allow from all
