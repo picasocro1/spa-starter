@@ -1,4 +1,5 @@
 export { About } from './About'
 export { ErrorPage } from './ErrorPage'
 export { Home } from './Home'
+export { Project } from './Project'
 export { Root } from './Root'

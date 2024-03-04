@@ -48,3 +48,4 @@
 1. Add errorPage
 1. Add child routes
 1. Add navigation links
+1. Read route params

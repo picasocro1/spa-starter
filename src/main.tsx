@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, Navigate, RouterProvider } from 'react-router-dom'
 
-import { About, ErrorPage, Home, Root } from '@/routes'
+import { About, ErrorPage, Home, Project, Root } from '@/routes'
 import './index.css'
 
 const router = createBrowserRouter([
@@ -22,6 +22,10 @@ const router = createBrowserRouter([
       {
         path: '/about',
         element: <About />,
+      },
+      {
+        path: '/project/:id',
+        element: <Project />,
       },
     ],
   },
