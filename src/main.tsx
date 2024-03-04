@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { createBrowserRouter, Navigate, RouterProvider } from 'react-router-dom'
 
 import { About, ErrorPage, Home, Root } from '@/routes'
 import './index.css'
@@ -13,7 +13,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: '/',
-        element: <Home />,
+        element: <Navigate to="/home" />,
       },
       {
         path: '/home',
