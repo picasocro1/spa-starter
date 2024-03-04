@@ -1,10 +1,14 @@
-import { Link, Outlet } from 'react-router-dom'
+import { NavLink, Outlet } from 'react-router-dom'
 
 export const Root = () => (
   <>
     <nav className="flex justify-center gap-2 p-2">
-      <Link to={'/home'}>Home</Link>
-      <Link to={'/about'}>About</Link>
+      <NavLink to={'/home'} className={({ isActive }) => (isActive ? 'text-green-500' : '')}>
+        Home
+      </NavLink>
+      <NavLink to={'/about'} className={({ isActive }) => (isActive ? 'text-green-500' : '')}>
+        About
+      </NavLink>
     </nav>
     <main className="grid h-full place-content-center">
       <Outlet />
