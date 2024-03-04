@@ -50,3 +50,4 @@
 1. Add navigation links
 1. Read route params
 1. Read search params
+1. Set search params
