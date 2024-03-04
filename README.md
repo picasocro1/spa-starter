@@ -47,3 +47,4 @@
 1. Init routes | Replace App with Root route
 1. Add errorPage
 1. Add child routes
+1. Add navigation links
