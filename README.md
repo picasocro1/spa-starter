@@ -49,3 +49,4 @@
 1. Add child routes
 1. Add navigation links
 1. Read route params
+1. Read search params
