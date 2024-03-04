@@ -26,9 +26,8 @@
     /* Paths */
     "baseUrl": "./src",
     "paths": {
-      "@/utils": [
-        "./utils"
-      ]
+      "@/hooks": ["./hooks"],
+      "@/utils": ["./utils"]
     }
   },
   "include": ["src", "setupTests.ts"],

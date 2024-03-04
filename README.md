@@ -10,7 +10,8 @@
 - Vitest
 - React Testing Library
 - Husky & lint-staged
-- Organize imports & Tailwind classes order
+- Organize imports & Tailwind CSS prettier order
+- useTailwind hook
 
 ## Steps that have been taken to create this project
 
