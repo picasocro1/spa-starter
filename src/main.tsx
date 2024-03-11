@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, Navigate, RouterProvider } from 'react-router-dom'
 
-import { About, ErrorPage, Home, Project, Root } from '@/routes'
+import { ErrorPage, Home, Project, Root } from '@/routes'
 import './index.css'
 
 const router = createBrowserRouter(
@@ -22,7 +22,11 @@ const router = createBrowserRouter(
         },
         {
           path: '/about',
-          element: <About />,
+          lazy: async () => ({
+            loader: () => Promise.resolve({}),
+            Component: await import('@/routes').then(({ About }) => About),
+            ErrorBoundary: () => <></>,
+          }),
         },
         {
           path: '/project/:id',
